@@ -1,95 +1,96 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Country Information</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Country Info Guide</a>
-        </div>
-      </div>
-    </nav>
-    
-    <main class="container">
-      <div class="row">
-        <div class="col-8 col-lg-6 h5">
-          <select class="form-select my-4 col-8" id="dropdown-menu">
-            <option selected>Search for a country</option>
-          </select>
-        </div>
-      </div>
-        <div class="container">
-          <div class="row py-1">
-            <div class="col-6 h5">
-              Country Name:
-            </div>
-            <div class="col-6" id="countryname">
-            </div>
-          </div>
-          <div class="row py-1">
-            <div class="col-6 h5">
-              Capital City:
-            </div>
-            <div class="col-6" id="capital">
-            </div>
-          </div>
-          <div class="row py-1">
-            <div class="col-6 h5">
-              Region:
-            </div>
-            <div class="col-6" id="region">
-            </div>
-          </div>
-          <div class="row py-1">
-            <div class="col-6 h5">
-              Area (km²):
-            </div>
-            <div class="col-6" id="area">
-            </div>
-          </div>
-          <div class="row py-1">
-            <div class="col-6 h5">
-              Population:
-            </div>
-            <div class="col-6" id="population">
-            </div>
-          </div>
-          <div class="row py-1">
-            <div class="col-6 h5">
-              Currency:
-            </div>
-            <div class="col-6" id="currency">
-            </div>
-          </div>
-          <div class="row py-1">
-            <div class="col-6 h5">
-              Language:
-            </div>
-            <div class="col-6" id="language">
-            </div>
-          </div>
-          <div class="row py-1">
-            <div class="col-6 h5">
-              Independent:
-            </div>
-            <div class="col-6" id="independent">
-            </div>
-          </div>
-          <div class="row py-2">
-            <div class="col-6 h5">
-              UN Member:
-            </div>
-            <div class="col-6" id="un">
-            </div>
-          </div>
-      </div>
-    </main>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NationStats</title>
 
-    <script src="js/main.js"></script>
-  </body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+  <main class="container-lg container-sm my-3">
+    <h1 class="h1">NationStats</h1>
+    <div class="h4">Choose a country from the dropdown below to access detailed information</div>
+    <div class="row">
+      <div class="col-8 col-lg-6 h5">
+        <select class="form-select my-4 col-8" id="dropdown-menu">
+          <option selected>Search for a country</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row py-1">
+      <div class="col-6 h5">
+        Country Name:
+      </div>
+      <div class="col-6" id="countryname">
+      </div>
+    </div>
+    <div class="row py-1">
+      <div class="col-6 h5">
+        Capital City:
+      </div>
+      <div class="col-6" id="capital">
+      </div>
+    </div>
+    <div class="row py-1">
+      <div class="col-6 h5">
+        Region:
+      </div>
+      <div class="col-6" id="region">
+      </div>
+    </div>
+    <div class="row py-1">
+      <div class="col-6 h5">
+        Area (km²):
+      </div>
+      <div class="col-6" id="area">
+      </div>
+    </div>
+    <div class="row py-1">
+      <div class="col-6 h5">
+        Population:
+      </div>
+      <div class="col-6" id="population">
+      </div>
+    </div>
+    <div class="row py-1">
+      <div class="col-6 h5">
+        Currency:
+      </div>
+      <div class="col-6" id="currency">
+      </div>
+    </div>
+    <div class="row py-1">
+      <div class="col-6 h5">
+        Language:
+      </div>
+      <div class="col-6" id="language">
+      </div>
+    </div>
+    <div class="row py-1">
+      <div class="col-6 h5">
+        Independent:
+      </div>
+      <div class="col-6" id="independent">
+      </div>
+    </div>
+    <div class="row py-2">
+      <div class="col-6 h5">
+        UN Member:
+      </div>
+      <div class="col-6" id="un">
+      </div>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>

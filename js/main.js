@@ -81,7 +81,7 @@ async function getCountryInfo(name){
   const dropdownItems = document.getElementById('dropdown-menu');
 
   // Event listener for when an option is clicked
-  dropdownItems.addEventListener('click', function() {
+  dropdownItems.addEventListener('change', function() {
     //need to understand this further 
     const selectedOption = dropdownItems.options[dropdownItems.selectedIndex].text;
     //call the get country info function to prepare to display the information on the screen
